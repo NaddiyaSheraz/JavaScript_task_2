@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Table</h1>
+    
+    <label class="in" for="number">Which table you want to print:</label>
+    <input type="number" id="number"><br><br>
+
+    <label class="in" for="minlendth">Number to Start the table:</label>
+    <input type="number" id="minlendth"><br><br>
+
+    <label class="in" for="maxlendth">Number to end the table:</label>
+    <input type="number" id="maxlendth"><br><br>
+    
+    <button onclick="printTable()">Print Table</button><br><br>
+    <button onclick="Refresh()">Refresh</button><br><br>
+
+    
+    <div class="tableIwant">
+        <p id="DisplayTable"></p>
+    </div>
+</body>
+</html>
